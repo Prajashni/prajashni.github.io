@@ -1,6 +1,4 @@
-
 import React from 'react';
-import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 
@@ -41,8 +39,8 @@ export default function Portfolio() {
           Analyst, Builder, Impact-Maker.
         </p>
         <div className="mt-8 flex flex-col md:flex-row gap-4">
-          <Button onClick={handleResumeDownload} className="bg-[#B99470] text-black px-6 py-2 rounded-2xl hover:bg-[#D9C5AD]">Download Resume</Button>
-          <Button className="border border-[#B99470] text-[#B99470] px-6 py-2 rounded-2xl hover:bg-[#B99470] hover:text-black" onClick={() => window.open('https://drive.google.com/file/d/1tdz9hnQNDg_4AU0W9GvDKRTeWiuf0tXN/view', '_blank')}>View Resume</Button>
+          <button onClick={handleResumeDownload} className="bg-[#B99470] text-black px-6 py-2 rounded-2xl hover:bg-[#D9C5AD]">Download Resume</button>
+          <button className="border border-[#B99470] text-[#B99470] px-6 py-2 rounded-2xl hover:bg-[#B99470] hover:text-black" onClick={() => window.open('https://drive.google.com/file/d/1tdz9hnQNDg_4AU0W9GvDKRTeWiuf0tXN/view', '_blank')}>View Resume</button>
         </div>
       </section>
     </div>
