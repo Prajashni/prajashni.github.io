@@ -1,5 +1,5 @@
 import React from 'react';
-import Portfolio from '../components/Portfolio'; // Make sure this path is correct
+import Portfolio from '../components/Portfolio';
 
 export default function Home() {
   return <Portfolio />;
