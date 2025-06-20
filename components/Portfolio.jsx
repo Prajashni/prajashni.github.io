@@ -33,7 +33,7 @@ export default function Portfolio() {
 
       <section className="min-h-screen flex flex-col justify-center items-center bg-[#1E1A17] px-6 md:px-20 text-center pt-28">
         <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#D9C5AD] mb-6">
-          <Image src="/WhatsApp Image 2025-05-14 at 23.29.53_22edc837.jpg" alt="Prajashni" width={160} height={160} />
+          <Image src="/profile_pic.jpg" alt="Prajashni" width={160} height={160} />
         </div>
         <h1 className="text-6xl md:text-7xl font-bold text-[#F6EBD9] tracking-tight">Hi, I'm Prajashni</h1>
         <p className="text-xl md:text-2xl text-[#D9C5AD] mt-4 max-w-2xl">
