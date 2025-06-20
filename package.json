@@ -1,19 +1,14 @@
 {
   "name": "prajashni-portfolio",
-  "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "lucide-react": "^0.287.0"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.0"
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "lucide-react": "^0.28.0"
   }
 }
