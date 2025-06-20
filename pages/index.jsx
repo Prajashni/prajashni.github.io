@@ -1,2 +1,6 @@
+import React from 'react';
+import Portfolio from '../components/Portfolio'; // Make sure this path is correct
 
-// placeholder: this will be filled by the full site code again manually if needed
+export default function Home() {
+  return <Portfolio />;
+}
