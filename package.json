@@ -9,6 +9,6 @@
     "next": "13.x",
     "react": "18.x",
     "react-dom": "18.x",
-    "lucide-react": "^0.28.0"
+    "lucide-react": "^0.263.0"
   }
 }
